@@ -11,7 +11,7 @@ aws configure sso
 # sso profiles
 mv ~/.aws/config ~/.aws/config.backup
 rm accounts.txt
-python3 make-account-profiles.py bhp
+python3 make-account-profiles.py something
 
 # Enable Automatic Key roation and save the status
 rm -fr enable-kms-cmks-key-rotation*.csv
