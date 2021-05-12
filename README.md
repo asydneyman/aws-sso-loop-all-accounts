@@ -1,1 +1,1 @@
-Use SSO to loop through accounts
+Use AWS SSO to loop through AWS accounts
